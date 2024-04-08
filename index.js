@@ -1,1 +1,10 @@
-// code your solution here
+
+// 
+function superbowlWin(arrayRecord){
+    for(const rec of arrayRecord){
+        if(rec.result === "W"){
+            return (rec.year)
+        }
+    }
+}
+
